@@ -17,7 +17,7 @@ import torch
 
 # Configuration
 CHROMA_DB_DIR = "./chroma_db"
-os.environ.setdefault("GROQ_API_KEY", "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")
+os.environ.setdefault("GROQ_API_KEY", "xxxxxxxxxxxxxxxxxx")
 
 
 # Prompt Template for Legal Questions
@@ -186,3 +186,4 @@ if __name__ == "__main__":
             print(f"\n📚 Found {result['source_count']} relevant source(s)")
         else:
             print(f"\n❌ {result['answer']}")
+
